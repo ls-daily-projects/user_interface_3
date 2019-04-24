@@ -248,7 +248,7 @@ hr {
     margin: 40px auto;
 }
 
-main.home {
+main {
     flex-wrap: wrap;
 }
 
@@ -263,7 +263,7 @@ main.home .card p {
     line-height: 18px;
 }
 
-main.home .card-50 {
+main .card-50 {
     width: 50%;
 }
 
@@ -272,8 +272,36 @@ main.home img {
     margin: 36px 0;
 }
 
-main.home .card-33 {
+main .card-33 {
     width: 33%;
+}
+
+main.services {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main.services .card {
+    padding: 20px;
+    line-height: 20px;
+    background: #f4f3f4;
+    border: 1px solid #000000;
+    width: 47.72%;
+    margin-bottom: 40px;
+}
+
+main.services .card:last-child,
+main.services .card:nth-child(5) {
+    margin-bottom: 0;
+}
+
+main.services .btn {
+    background: transparent;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 8px;
+    width: 33.33%;
+    margin-top: 20px;
 }
 
 /********** Footer **********/
