@@ -332,5 +332,22 @@ footer img {
 }
 
 footer p:last-child {
-    margin: 88px auto 16px;
+    margin: 44px auto 16px;
+}
+
+footer.home {
+    flex-direction: column;
+}
+
+footer.home .footer-text {
+    display: flex;
+    flex-direction: column;
+}
+
+footer.home a {
+    text-align: left;
+}
+
+footer.home .footer-text a {
+    margin-top: 16px;
 }
