@@ -179,6 +179,45 @@ header nav + a {
     min-width: 17.871%;
 }
 
+/********** Hero / Home **********/
+.hero {
+    display: flex;
+    width: 100%;
+    padding: 32px 72px 64px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 76px;
+    letter-spacing: 4.5px;
+    line-height: 74px;
+    text-align: center;
+}
+
+.hero-text button {
+    display: block;
+    font-family: TitilliumWeb-Regular;
+    margin: 24px auto;
+    min-width: 174px;
+    background: transparent;
+    border: 1px solid #737373;
+    font-size: 16px;
+    color: #737373;
+    letter-spacing: 1px;
+    padding: 5px 0px;
+}
+
+.hero-img {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+/********** Hero / Services **********/
+
 /********** Intro **********/
 .intro {
     display: inline-block;
