@@ -351,3 +351,30 @@ footer.home a {
 footer.home .footer-text a {
     margin-top: 16px;
 }
+
+/********** Contact Page **********/
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 0 72px;
+}
+
+.contact h1 {
+    font-size: 44px;
+}
+
+.contact form {
+    display: flex;
+    width: 100%;
+    padding: 0 72px;
+}
+
+.contact form label {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.contact .form-field input {
+    padding: 16px;
+    border: 1px solid black;
+}
