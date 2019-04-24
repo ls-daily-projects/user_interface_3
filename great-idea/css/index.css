@@ -306,39 +306,31 @@ main.services .btn {
 
 /********** Footer **********/
 footer {
-    display: inline-block;
-    width: 100%;
-    padding: 35px 75px 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 72px;
 }
 
-footer .rule {
-    width: 100%;
-    height: 1px;
-    background-color: black;
-    display: inline-block;
-    margin-bottom: 34px;
+footer .footer-text {
+    width: 47.72%;
 }
 
-footer h2 {
-    line-height: 1;
+footer p,
+footer li {
+    line-height: 20px;
 }
 
-footer address {
-    line-height: 18px;
-    margin-bottom: 15px;
+footer ul {
+    margin-top: 24px;
+    list-style-type: square;
+    list-style-position: inside;
 }
 
-footer a {
-    display: inline-block;
-    text-decoration: none;
-    color: black;
+footer img {
+    width: 47.72%;
 }
 
-footer a:last-of-type {
-    margin-top: 12px;
-}
-
-footer .row {
-    padding-top: 47px;
-    text-align: center;
+footer p:last-child {
+    margin: 88px auto 16px;
 }
