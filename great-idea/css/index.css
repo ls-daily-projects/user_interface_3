@@ -150,31 +150,33 @@ h5 {
 }
 
 /* Your code starts here! */
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+}
 
 /********** Header **********/
 header {
-    position: fixed;
-    width: 100%;
-    padding: 35px 75px 46px 75px;
-    background: rgba(206, 214, 255, 0.98);
-}
-header nav {
-    display: inline-block;
-    font-family: "Montserrat", sans-serif;
-}
-header nav a {
-    display: inline-block;
-    padding-right: 52px;
-    text-decoration: none;
-    color: black;
-    font-size: 10px;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 72px;
 }
 
-header .logo {
-    width: 183px;
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+header nav a {
+    align-self: center;
+}
+
+header nav + a {
+    min-width: 17.871%;
 }
 
 /********** Intro **********/
